@@ -1,0 +1,22 @@
+:root {
+    --dark-main-color: #260D26;
+    --light-main-color: #3B0D3B;
+    --sub-color: #720D72;
+    --grey-color: #7A6B7A;
+    --light-white: #FDF4DC;
+}
+
+.filter {
+    display: flex;
+    max-width: 200px;
+    gap: 1rem;
+    align-items: center;
+}
+
+select {
+    border-radius: 15px;
+    min-width: 100px;
+    text-decoration: none;
+    padding: 3px;
+    background-color: var(--grey-color);
+}
